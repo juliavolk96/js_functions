@@ -1,6 +1,6 @@
 function substr(str, start = 0, length) {
   if (str == null) {
-    throw new Error('Аргумент не может быть null или undefined');
+    throw new Error('Argument cannot be null or undefined');
   }
 
   if (length === undefined) {
@@ -32,7 +32,7 @@ function substr(str, start = 0, length) {
   let result = '';
 
   for (let i = start; i < end; i++) {
-    result += str[i]
+    result += str[i];
   }
 
   return result;

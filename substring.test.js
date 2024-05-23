@@ -22,7 +22,7 @@ assert.strictEqual(substr('abba', -1, -1), 'a');
 assert.strictEqual(substr('abba', 1, -10), 'b');
 
 // Null and undefined tests
-assert.throws(() => substr(null, 0, 1), /Аргумент не может быть null или undefined/);
-assert.throws(() => substr(undefined, 0, 1), /Аргумент не может быть null или undefined/);
+assert.throws(() => substr(null, 0, 1), /Argument cannot be null or undefined/);
+assert.throws(() => substr(undefined, 0, 1), /Argument cannot be null or undefined/);
 
-console.log('Все тесты пройдены');
+console.log('All tests passed');

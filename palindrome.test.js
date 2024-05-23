@@ -16,7 +16,7 @@ assert.strictEqual(isPalindrome(''), true);
 assert.strictEqual(isPalindrome('a'), true);
 
 // Testing error handling for null and undefined arguments
-assert.throws(() => isPalindrome(null),/Аргумент не может быть null или undefined/);
-assert.throws(() => isPalindrome(undefined), /Аргумент не может быть null или undefined/);
+assert.throws(() => isPalindrome(null), /Argument cannot be null or undefined/);
+assert.throws(() => isPalindrome(undefined), /Argument cannot be null or undefined/);
 
-console.log('Все тесты пройдены');
+console.log('All tests passed');

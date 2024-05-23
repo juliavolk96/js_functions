@@ -1,16 +1,16 @@
 function isPalindrome(str) {
 
   if (str == null) {
-    throw new Error('Аргумент не может быть null или undefined')
+    throw new Error('Argument cannot be null or undefined');
   }
 
-  str = str.toString().toLowerCase().replace(/[^a-zа-я0-9]/gi,'');
+  str = str.toString().toLowerCase().replace(/[^a-zа-я0-9]/gi, '');
 
   if (str.length < 1) {
     return true;
   }
 
-  if (str[0] !== str[str.length -1]) {
+  if (str[0] !== str[str.length - 1]) {
     return false;
   }
 
